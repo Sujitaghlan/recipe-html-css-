@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --sub-heading-color: #994e02;
+}
+
+body{
+    background-color: rgb(249, 233, 209);
+    
+}
+
+main{
+    margin: 20px auto;
+    width: 50%;
+    background-color: aliceblue;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.omlette-image{
+    width: 100%;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: "Orbitron", sans-serif;
+}
+h2{
+    font-family: "Zilla Slab", serif;
+}
+
+.time{
+    background-color: rgb(247, 239, 247);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.time h3{
+    color: #3e2104;
+}
+
+.time ul{
+    padding:  5px 20px;
+}
+
+.ingredients h2{
+    color: var(--sub-heading-color);
+}
+
+.ingredients ul{
+    padding: 5px 20px;
+}
+
+.instruction h2{
+    color: var(--sub-heading-color);
+}
+
+.instruction ol{
+    padding: 5px 20px;
+}
+
+.instruction li{
+    margin: 5px;
+}
+
+.nutrition h2{
+    color: var(--sub-heading-color);
+}
+
+.nutrition p{
+    margin-top: 5px;
+}
+.nutrients{
+    padding: 10px;
+}
+.nutrients0{
+    display: flex;
+    padding: 5px 30px;
+    gap: 10rem;
+}
+
+.nutrients1{
+    display: flex;
+    padding: 5px 30px;
+    gap: 11rem;
+}
+
+.nutrients2{
+    display: flex;
+    padding: 5px 30px;
+    gap: 10.4rem;
+}
+.nutrients3{
+    display: flex;
+    padding: 5px 30px;
+    gap: 12rem;
+}
+
+
